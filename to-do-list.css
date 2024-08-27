@@ -1,0 +1,71 @@
+.show-items{
+    display:flex;
+    flex-direction:column;
+    margin-top:10px;
+}
+
+.individual-item{
+    display:flex;
+    flex-direction:row;
+    margin-bottom:2px;
+}
+
+.individual-task{
+    padding:3px;
+  width:300px;
+  margin-right:10px;
+  border-radius:10%;
+  font-size: 15px;
+  color:rgba(24, 19, 19, 0.849);
+  border:1px grey solid;
+
+}
+.individual-time{
+    width:100px;
+    padding:3px;
+    border-radius:10%;
+    border:1px grey solid;
+}
+
+button{
+padding:4px;
+border:grey solid 1px;
+border-radius:10%;
+margin-left:10px;
+width:100px;
+height:40px;
+}
+
+.add-button-cs{
+    background-color: green;
+    color:white;
+    font-weight:bold;
+}
+
+.task-js{
+  padding:3px;
+  width:300px;
+  margin-right:10px;
+  border-radius:10%;
+  font-size: 15px;
+  color:rgba(24, 19, 19, 0.849);
+  border:1px grey solid;
+}
+
+.time-js{
+    width:100px;
+    padding:3px;
+    border-radius:10%;
+    border:1px grey solid;
+}
+
+.delete-button{
+    height: 25px;
+    background-color: red;
+    font-weight: bold;
+    color:white;
+}
+
+.add-items{
+    margin-bottom:50px;
+}
